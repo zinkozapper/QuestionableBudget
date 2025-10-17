@@ -1,0 +1,228 @@
+{
+  "accounts": [
+    {
+      "id": "acc_1",
+      "name": "Checking Account",
+      "balance": 2450.75
+    },
+    {
+      "id": "acc_2", 
+      "name": "Savings Account",
+      "balance": 8750.00
+    },
+    {
+      "id": "acc_3",
+      "name": "Credit Card",
+      "balance": -1250.30
+    },
+    {
+      "id": "acc_4",
+      "name": "Investment Account",
+      "balance": 15200.50
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat_1",
+      "name": "Housing",
+      "budgeted": 1200.00
+    },
+    {
+      "id": "cat_2",
+      "name": "Groceries",
+      "budgeted": 400.00
+    },
+    {
+      "id": "cat_3",
+      "name": "Transportation",
+      "budgeted": 300.00
+    },
+    {
+      "id": "cat_4",
+      "name": "Entertainment",
+      "budgeted": 200.00
+    },
+    {
+      "id": "cat_5",
+      "name": "Utilities",
+      "budgeted": 150.00
+    },
+    {
+      "id": "cat_6",
+      "name": "Healthcare",
+      "budgeted": 100.00
+    },
+    {
+      "id": "cat_7",
+      "name": "Dining Out",
+      "budgeted": 150.00
+    },
+    {
+      "id": "cat_8",
+      "name": "Shopping",
+      "budgeted": 200.00
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx_1",
+      "accountId": "acc_1",
+      "categoryId": "cat_1",
+      "amount": -1200.00,
+      "memo": "Monthly Rent",
+      "date": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "tx_2",
+      "accountId": "acc_1",
+      "categoryId": "cat_2",
+      "amount": -85.50,
+      "memo": "Weekly Groceries",
+      "date": "2024-01-02T00:00:00.000Z"
+    },
+    {
+      "id": "tx_3",
+      "accountId": "acc_1",
+      "categoryId": "cat_3",
+      "amount": -45.00,
+      "memo": "Gas Station",
+      "date": "2024-01-03T00:00:00.000Z"
+    },
+    {
+      "id": "tx_4",
+      "accountId": "acc_1",
+      "categoryId": "cat_4",
+      "amount": -25.00,
+      "memo": "Movie Tickets",
+      "date": "2024-01-04T00:00:00.000Z"
+    },
+    {
+      "id": "tx_5",
+      "accountId": "acc_1",
+      "categoryId": "cat_5",
+      "amount": -120.00,
+      "memo": "Electric Bill",
+      "date": "2024-01-05T00:00:00.000Z"
+    },
+    {
+      "id": "tx_6",
+      "accountId": "acc_1",
+      "categoryId": "cat_6",
+      "amount": -75.00,
+      "memo": "Doctor Visit",
+      "date": "2024-01-06T00:00:00.000Z"
+    },
+    {
+      "id": "tx_7",
+      "accountId": "acc_1",
+      "categoryId": "cat_7",
+      "amount": -35.00,
+      "memo": "Restaurant Dinner",
+      "date": "2024-01-07T00:00:00.000Z"
+    },
+    {
+      "id": "tx_8",
+      "accountId": "acc_1",
+      "categoryId": "cat_8",
+      "amount": -89.99,
+      "memo": "Online Shopping",
+      "date": "2024-01-08T00:00:00.000Z"
+    },
+    {
+      "id": "tx_9",
+      "accountId": "acc_1",
+      "categoryId": "cat_2",
+      "amount": -92.30,
+      "memo": "Grocery Store",
+      "date": "2024-01-09T00:00:00.000Z"
+    },
+    {
+      "id": "tx_10",
+      "accountId": "acc_1",
+      "categoryId": "cat_3",
+      "amount": -60.00,
+      "memo": "Uber Rides",
+      "date": "2024-01-10T00:00:00.000Z"
+    },
+    {
+      "id": "tx_11",
+      "accountId": "acc_1",
+      "categoryId": "cat_4",
+      "amount": -15.00,
+      "memo": "Netflix Subscription",
+      "date": "2024-01-11T00:00:00.000Z"
+    },
+    {
+      "id": "tx_12",
+      "accountId": "acc_1",
+      "categoryId": "cat_5",
+      "amount": -45.00,
+      "memo": "Internet Bill",
+      "date": "2024-01-12T00:00:00.000Z"
+    },
+    {
+      "id": "tx_13",
+      "accountId": "acc_1",
+      "categoryId": "cat_7",
+      "amount": -28.50,
+      "memo": "Coffee Shop",
+      "date": "2024-01-13T00:00:00.000Z"
+    },
+    {
+      "id": "tx_14",
+      "accountId": "acc_1",
+      "categoryId": "cat_8",
+      "amount": -125.00,
+      "memo": "Clothing Store",
+      "date": "2024-01-14T00:00:00.000Z"
+    },
+    {
+      "id": "tx_15",
+      "accountId": "acc_1",
+      "categoryId": "cat_2",
+      "amount": -78.45,
+      "memo": "Grocery Shopping",
+      "date": "2024-01-15T00:00:00.000Z"
+    },
+    {
+      "id": "tx_16",
+      "accountId": "acc_2",
+      "categoryId": "cat_1",
+      "amount": 5000.00,
+      "memo": "Salary Deposit",
+      "date": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "tx_17",
+      "accountId": "acc_2",
+      "categoryId": "cat_1",
+      "amount": 5000.00,
+      "memo": "Salary Deposit",
+      "date": "2024-01-15T00:00:00.000Z"
+    },
+    {
+      "id": "tx_18",
+      "accountId": "acc_3",
+      "categoryId": "cat_8",
+      "amount": -250.00,
+      "memo": "Credit Card Payment",
+      "date": "2024-01-10T00:00:00.000Z"
+    },
+    {
+      "id": "tx_19",
+      "accountId": "acc_4",
+      "categoryId": "cat_1",
+      "amount": 500.00,
+      "memo": "Investment Return",
+      "date": "2024-01-12T00:00:00.000Z"
+    },
+    {
+      "id": "tx_20",
+      "accountId": "acc_1",
+      "categoryId": "cat_6",
+      "amount": -45.00,
+      "memo": "Pharmacy",
+      "date": "2024-01-16T00:00:00.000Z"
+    }
+  ]
+}
