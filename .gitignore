@@ -1,0 +1,2 @@
+# Ignore the directory where npm stores its dependencies
+node_modules/
