@@ -232,7 +232,7 @@ function AppBar({ setView, view }) {
   return (
     <div className="app-bar py-4 px-4 flex items-center justify-between">
       <span className="app-title cursor-pointer" onClick={() => setView('dashboard')}>
-        Budgetr <span className="app-version">v2</span>
+        QuestionableBudget <span className="app-version">v2</span>
       </span>
       <nav className="nav-container">
         <NavButton text="Dashboard" onClick={() => setView('dashboard')} active={view === 'dashboard'} />
